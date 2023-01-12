@@ -23,6 +23,7 @@
     "editor.cursorStyle": "block",
     "editor.defaultFormatter": "ms-python.python",
     "editor.fontFamily": "Fisa Code",
+    "editor.fontSize": 16,
     "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -82,6 +83,7 @@
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "terminal.integrated.fontFamily": "Fisa Code",
+    "terminal.integrated.fontSize": 16,
     "terminal.integrated.gpuAcceleration": "on",
     "terminal.integrated.inheritEnv": true,
     "terminal.integrated.scrollback": 100000,
@@ -249,17 +251,6 @@
             "italic": false
         }
     ],
-    "github.copilot.enable": {
-        "*": false,
-        "yaml": false,
-        "plaintext": true,
-        "markdown": false,
-        "sql": false,
-        "c": true,
-        "cpp": true,
-        "python": false,
-        "java": true
-    },
     "workbench.colorCustomizations": {
         "statusBar.background": "#32302f",
         "statusBar.noFolderBackground": "#32302f",
