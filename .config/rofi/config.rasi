@@ -2,7 +2,7 @@ configuration {
         modi: "drun,window,run";
         lines: 16;
         columns: 1;
-        font: "Fira Code 11";
+        font: "Fisa Code 12";
         show-icons: true;
         dpi: 200;
         kb-mode-previous: "Shift+Tab";

@@ -14,8 +14,8 @@ sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc && \
 Install programs:
 ```
 sudo dnf install i3 i3lock arandr @development-tools cmake code curl feh fzf gh git google-noto-emoji-fonts \
-  powerline-fonts ImageMagick dbus-devel gcc git kitty libconfig-devel libdrm-devel libev-devel libX11-devel libX11-xcb \
-  libXext-devel libxcb-devel libGL-devel libEGL-devel meson pcre2-devel pixman-devel uthash-devel xcb-util-image-devel \
+  powerline-fonts ImageMagick dbus-devel gcc g++ git kitty libconfig-devel libdrm-devel libev-devel libX11-devel libX11-xcb \
+  libXext-devel libxcb-devel libGL-devel libEGL-devel meson pcre2-devel pixman-devel python3-devel uthash-devel xcb-util-image-devel \
   xcb-util-renderutil-devel xorg-x11-proto-devel meson ninja-build python3-pip rofi the_silver_searcher slop maim neovim \
   powertop util-linux-user wget curl xclip xprop xrandr zsh
 ```
@@ -74,6 +74,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 mkdir -p ~/install/bin/z.sh
 wget -O ~/install/bin/z.sh ~/https://raw.githubusercontent.com/rupa/z/master/z.sh
+```
+
+Install Vundle:
+```
+mkdir -p ~/.vim/bundle/
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim
+> PluginInstall!
+cd 
 ```
 
 Install bumblebee:

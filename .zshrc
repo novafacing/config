@@ -66,6 +66,7 @@ alias pip="python3 -m pip"
 alias ptpython="python3 -m ptpython"
 alias fetchall='git branch -r | grep -v "\->" | while read remote; do git branch --track "${remote#origin/}" "$remote"; done && git fetch --all && git pull --all'
 alias pip_reinstall="python3 -m pip install --upgrade --force-reinstall --no-deps"
+alias vim="nvim"
 
 #############
 # Functions #

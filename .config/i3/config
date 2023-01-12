@@ -1,5 +1,5 @@
 ### FONTS ###
-font pango:monospace 9
+font pango:Fisa Code 8
 
 ### AUTOSTART ###
 exec --no-startup-id setxkbmap -option caps:escape
@@ -124,6 +124,6 @@ client.focused #FFDCB7 #FFDCB7 #FFDCB7 #FFDCB7 #FFDCB7
 
 bar {
     font pango:Fisa Code 8
-    status_command ~/install/bumblebee-status/bumblebee-status -t gruvbox-powerline -m spacer spacer error title git spotify cpu load memory disk:root weather github dnf battery datetime -p interval=60 root.path=/ home.path=/home/novafacing/hub data.path=/data battery-upwer.showremaining=true github.token=$(cat ~/.secrets/github_token) 'weather.location=Portland' weather.showminmax=true pulseaudio.autostart=true pulseaudio.percent_change=5 pulseaudio.showbars=1 spacer.theme.bg=#504945 spacer.text="                                                                                                                                                                                                                                                                                " 
+    status_command ~/install/bumblebee-status/bumblebee-status -t gruvbox-powerline -m spacer spacer error title git brightness cpu load memory disk:root weather git github dnf battery-upower datetime -p interval=60 root.path=/ home.path=/home/novafacing/hub data.path=/data battery-upower.showremaining=true github.token=$(cat ~/.secrets/github_token) 'weather.location=Portland' weather.showminmax=true weather.unit=imperial pulseaudio.autostart=true pulseaudio.percent_change=5 pulseaudio.showbars=1 spacer.theme.bg=#504945 spacer.text="                                                                                                                                                                                                                                                                                " 
 }
 
