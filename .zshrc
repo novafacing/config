@@ -78,7 +78,7 @@ function hex() {
 # Imports and Scripts #
 #######################
 source $ZSH/oh-my-zsh.sh
-source ~/.local/bin/z.sh
+source ~/install/bin/z.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # Ugh this calls egrep
