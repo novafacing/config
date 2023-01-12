@@ -71,7 +71,26 @@ sudo fc-cache -rf
 Install OMZ:
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+mkdir -p ~/install/bin/z.sh
+wget -O ~/install/bin/z.sh ~/https://raw.githubusercontent.com/rupa/z/master/z.sh
+```
+
+Install bumblebee:
+
+```
+git clone https://github.com/tobi-wan-kenobi/bumblebee-status ~/install/bumblebee-status
+python3 -m pip install i3ipc
+python3 -m pip install -r ~/install/bumblebee-status/requirements/base.txt
+python3 -m pip install -r ~/install/bumblebee-status/requirements/cpu.txt
+python3 -m pip install -r ~/install/bumblebee-status/requirements/git.txt
+python3 -m pip install -r ~/install/bumblebee-status/requirements/github.txt
+wget -O ~/install/bumblebee-status/themes/gruvbox-powerline.json https://raw.githubusercontent.com/novafacing/bumblebee-status/master/themes/gruvbox-powerline.json
 ```
 
 
+Symlink configurations:
+```
+./setup.sh
+```
 

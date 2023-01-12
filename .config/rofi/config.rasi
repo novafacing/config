@@ -1,0 +1,18 @@
+configuration {
+        modi: "drun,window,run";
+        lines: 16;
+        columns: 1;
+        font: "Fira Code 11";
+        show-icons: true;
+        dpi: 200;
+        kb-mode-previous: "Shift+Tab";
+        kb-row-up: "Up,Control+k";
+        kb-row-down: "Down,Control+j";
+        kb-cancel: "Escape,Control+c,Control+bracketleft";
+        kb-remove-to-eol: "";
+        kb-accept-entry: "Return,KP_Enter";
+        kb-row-tab: "";
+        kb-remove-char-back: "BackSpace,Shift+BackSpace";
+}
+
+@theme "themes/gruvbox-material-dark"
