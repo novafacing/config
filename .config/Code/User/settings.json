@@ -320,5 +320,11 @@
     },
     "[toml]": {
         "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
     }
 }

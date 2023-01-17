@@ -15,9 +15,10 @@ Install programs:
 ```
 sudo dnf install i3 i3lock arandr @development-tools cmake code curl feh fzf gh git google-noto-emoji-fonts \
   powerline-fonts ImageMagick dbus-devel gcc g++ git kitty libconfig-devel libdrm-devel libev-devel libX11-devel libX11-xcb \
-  libXext-devel libxcb-devel libGL-devel libEGL-devel meson pcre2-devel pixman-devel python3-devel uthash-devel xcb-util-image-devel \
-  xcb-util-renderutil-devel xorg-x11-proto-devel meson ninja-build python3-pip rofi the_silver_searcher slop maim neovim \
-  powertop util-linux-user wget curl xclip xprop xrandr zsh
+  libXext-devel libxcb-devel libGL-devel libEGL-devel maim meson neovim pcre2-devel pixman-devel powertop \
+  python3-devel uthash-devel xcb-util-image-devel \
+  xcb-util-renderutil-devel xorg-x11-proto-devel meson ninja-build python3-pip rofi the_silver_searcher slop \
+  util-linux-user wget curl xclip xprop xrandr zsh
 ```
 
 Set light suid:

@@ -53,7 +53,7 @@ nnoremap J j
 nnoremap j gj
 nnoremap k gk
 " easymotion w instead of normal w
-nmap w <Plug>(easymotion-bd-w)
+" nmap w <Plug>(easymotion-bd-w)
 " Navigate buffers without W (uses C-j...)
 nnoremap <leader>j <C-W>j
 nnoremap <leader>k <C-W>k
