@@ -54,7 +54,7 @@ ninja -C build
 sudo ninja -C build install
 ```
 
-Install rust:
+Install rust and crates:
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 cargo install du-dust git-delta atuin ytop lsd starship
@@ -89,6 +89,7 @@ cd
 Install bumblebee:
 
 ```
+cd ~/install
 git clone https://github.com/tobi-wan-kenobi/bumblebee-status ~/install/bumblebee-status
 python3 -m pip install i3ipc
 python3 -m pip install -r ~/install/bumblebee-status/requirements/base.txt
@@ -97,6 +98,18 @@ python3 -m pip install -r ~/install/bumblebee-status/requirements/git.txt
 python3 -m pip install -r ~/install/bumblebee-status/requirements/github.txt
 wget -O ~/install/bumblebee-status/themes/gruvbox-powerline.json https://raw.githubusercontent.com/novafacing/bumblebee-status/master/themes/gruvbox-powerline.json
 ```
+
+Install mold:
+```
+cd ~/install/
+git clone https://github.com/rui314/mold.git
+mkdir mold/build
+cd mold/build
+git checkout v1.10.1
+../install-build-deps.sh
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=c++ ..
+cmake --build . -j $(nproc)
+sudo cmake --install .
 
 
 Symlink configurations:
