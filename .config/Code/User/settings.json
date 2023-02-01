@@ -308,9 +308,6 @@
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "[java]": {
         "editor.defaultFormatter": "redhat.java"
     },
@@ -322,9 +319,12 @@
         "editor.defaultFormatter": "tamasfe.even-better-toml"
     },
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "yaml": false,
         "plaintext": false,
         "markdown": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
     }
 }
